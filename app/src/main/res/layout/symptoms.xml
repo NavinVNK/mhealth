@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+
+    android:weightSum="1">
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REPORT AN ISSUE"
+        android:id="@+id/t1"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:textStyle="bold|italic" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coughing that lasts for three days"
+        android:id="@+id/checkBox1"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="30dp"
+
+        android:background="#ffffff" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:text="Coughing up blood"
+        android:id="@+id/checkBox2"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+         />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chest pain, pain with breathing"
+        android:id="@+id/checkBox3"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unintentional weight loss"
+        android:id="@+id/checkBox4"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fatigue"
+        android:id="@+id/checkBox5"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:checked="false" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fever and night sweats"
+        android:id="@+id/checkBox6"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:singleLine="false" />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="SUBMIT"
+        android:id="@+id/b1"
+        android:background="@drawable/custom_button"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        />
+</LinearLayout>
+</HorizontalScrollView>
+    </ScrollView>
