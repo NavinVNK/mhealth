@@ -14,7 +14,7 @@ public class InternetCheckDialogFragment extends DialogFragment {
 
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {
-       String [] res= savedInstanceState.getStringArray("status");
+      // String [] res= savedInstanceState.getStringArray("status");
         return new AlertDialog.Builder(getActivity())
                 // Set Dialog Icon
                 .setIcon(R.drawable.tbtrack)
